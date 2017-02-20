@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="customize.button"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.game.database.MyApplication"
+        android:icon="@drawable/puzzle_red"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.game.puzzle.main.MainMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.game.puzzle.singleplay.SingleGameActivity"
+            android:label="@string/newGameSingle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.game.puzzle.arcadeplay.ArcadeGameActivity"
+            android:label="@string/newGameArcade"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.game.puzzle.highscore.HighscoreActivity"
+            android:label="@string/highscore"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.game.puzzle.authors.AuthorsActivity"
+            android:label="@string/authors"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

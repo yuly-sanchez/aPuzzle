@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wallpaper11"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleShadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="6dp"
+        android:paddingTop="10dp"
+        android:text="@string/authors"
+        android:textColor="#005098"
+        android:textSize="23pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/authors"
+        android:textColor="#dadada"
+        android:textSize="23pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:contentDescription="@string/guido"
+        android:id="@+id/guidoImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="26dp"
+        android:layout_x="185dp"
+        android:layout_y="102dp"
+        android:src="@drawable/guido_about2" />
+
+    <TextView
+        android:id="@+id/guidoTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="131dp"
+        android:textColor="#ffffff"
+        android:text="@string/guido"
+        android:textSize="8pt" />
+
+    <ImageView
+        android:contentDescription="@string/nicola"
+        android:id="@+id/nicolaImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="79dp"
+        android:layout_marginRight="28dp"
+        android:layout_x="22dp"
+        android:layout_y="206dp"
+        android:src="@drawable/nicola_about2" />
+
+    <TextView
+        android:id="@+id/nicolaTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_x="124dp"
+        android:layout_y="238dp"
+        android:textColor="#ffffff"
+        android:text="@string/nicola"
+        android:textSize="8pt" />
+
+    <ImageView
+        android:contentDescription=""
+        android:id="@+id/yulyImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_x="193dp"
+        android:layout_y="303dp"
+        android:src="@drawable/yuly_about2" />
+
+    <TextView
+        android:id="@+id/appTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="464dp"
+        android:textColor="#dadada"
+        android:gravity="center|center_horizontal"
+        android:text="@string/copyright"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/yulyTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_x="64dp"
+        android:layout_y="362dp"
+        android:textColor="#ffffff"
+        android:text="@string/yuly"
+        android:textSize="8pt" />
+
+</AbsoluteLayout>

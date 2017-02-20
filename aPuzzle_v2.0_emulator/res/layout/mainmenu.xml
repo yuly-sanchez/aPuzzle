@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="240dp"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="240dp"
+        android:layout_height="190dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/icon_graphic_icon" />
+
+    <Button
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapebutton"
+        android:drawableRight="@drawable/next"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:text="@string/mainmenu"
+        android:textSize="8pt" />
+
+</LinearLayout>

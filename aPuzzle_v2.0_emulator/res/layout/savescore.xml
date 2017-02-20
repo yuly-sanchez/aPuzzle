@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/coppa" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_x="91dp"
+        android:layout_y="237dp"
+        android:background="#644948"
+        android:cursorVisible="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="name"        
+        android:textColor="#ffffff"
+        android:maxLength="6"
+        android:textSize="8pt" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/savescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="310dp"
+        android:background="@drawable/shapebutton"
+        android:drawableRight="@drawable/next"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:text="save"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/yourscore"
+        android:layout_width="93dp"
+        android:layout_height="52dp"
+        android:layout_x="102dp"
+        android:layout_y="60dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="5dp"
+        android:text="999"
+        android:textColor="#ffffff"
+        android:textSize="14pt"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

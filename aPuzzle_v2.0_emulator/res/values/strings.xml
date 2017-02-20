@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">aPuzzle</string>
+    <string name="app_name_title">aPuzzle</string>
+    <string name="newGameSingle">play</string>
+    <string name="newGameArcade">arcade</string>
+    <string name="continueGame">continue</string>
+    <string name="help">help</string>
+    <string name="authors">authors</string>
+    <string name="exit">exit</string>
+    <string name="info">info</string>
+    <string name="highscore">highscore</string>
+    <string name="guido">Guido Pugliese</string>
+    <string name="nicola">Nicola Zambotti</string>
+    <string name="yuly">Yuly Sanchez</string>
+    <string name="copyright">aPuzzle "("C")" 2012</string>
+    <string name="fromGallety">from Gallery</string>
+    <string name="fromCamera">from Camera</string>
+    <string name="fromDefault">from Default</string>
+    <string name="mainmenu">main menu</string>
+    <string name="savescore">save</string>
+    <string name="name">Name</string>
+    <string name="imagecomplete">IMAGE COMPLETE!!</string>
+    <string name="score">Score</string>
+    <string name="congratulation">CONGRATULATIONS!!</string>
+    <string name="help_desc_it">
+        <p align="left">
+        L"'"applicazione <b>aPuzzle</b> è stata creata per fornire all"'"utente un passatempo veloce e divertente. 
+        <b>aPuzzle</b>è un gioco in cui bisogna trascinare le tessere di un puzzle 
+        per ricomporre l"'"immagine originale."\n""\n"
+        
+    	Iniziamo descrivendo le funzionalità di ogni singolo bottone presente nel <b>menu principale :</b>"\n""\n"
+        	
+        	&#42; "\t"<b>PLAY</b>"\n"
+        				"\t""\t"fornisce all"'"utente la possibilità di fare il"\n" 
+        				"\t""\t"puzzle di un"'"immagine presa dalla gallery "\n"
+        				"\t""\t"oppure dalla camera. "\n""\n"
+        				
+        	&#42; "\t"<b>ARCADE</b>"\n"
+        				"\t""\t"vengono proposti all"'"utente 3 livelli"\n" 
+        				"\t""\t"con immagini di default "\n"
+        				"\t""\t"iniziare la partita, una volta colclusa la"\n"
+        				"\t""\t"partita l"'"utente potrà registrare il suo "\n" 
+        				"\t""\t"nome nel database per controllare il suo"\n"
+        				"\t""\t"punteggio finale."\n""\n"
+        				
+        	&#42; "\t"<b>HIGHSCORE</b>"\n"
+        				"\t""\t"questa schermata contiene una tabella con "\n" 
+        				"\t""\t"due campi: <b>il nome del giocatore</b> ed "\n"
+        				"\t""\t"<b>il punteggio ottenuto</b>."\n""\n"
+        				
+        &#42; "\t"<b>HELP</b>"\n"
+        				"\t""\t"questa schermata contiene una piccola"\n"
+        				"\t""\t"guida dell"'"applicazione <b>aPuzzle</b>."\n""\n"
+        
+        	&#42; "\t"<b>AUTHORS</b>"\n"
+        				"\t""\t"questa schermata contiene i nomi degli"\n"
+        				"\t""\t"sviluppatori dell"'"applicazione <b>aPuzzle</b>."\n""\n"
+        				
+        	&#42; "\t"<b>EXIT</b>"\n"
+        				"\t""\t"viene richiesto all"'"utente se desidera"\n"
+        				"\t""\t"uscire dal gioco e chiudere l"'"applicazione."\n""\n"												
+        	
+        </p>
+        
+    </string>
+    <string name="help_desc_fr"><p align="left">
+        L"'"application <b>aPuzzle</b> viene creata per fornire all"'"utente un passatempo veloce e divertente. 
+        <b>aPuzzle</b> è un gioco in cui bisogna trascinare tra loro dei pezzi di immagine di piccole dimensione 
+        fino a risalire all"'"immagine originale."\n""\n"
+        
+    	Iniziamo descrivendo le funzionalità di ogni singolo bottone presente nel <b>menu principale :</b>"\n""\n"
+        	
+        	&#42; "\t"<b>PLAY</b>"\n"
+        				"\t""\t"fornisce all"'"utente la possibilità di fare il"\n" 
+        				"\t""\t"puzzle di un"'"immagine presa dalla gallery "\n"
+        				"\t""\t"oppure dalla camera. "\n""\n"
+        				
+        	&#42; "\t"<b>ARCADE</b>"\n"
+        				"\t""\t"viene proposto all"'"utente 3 immagini di"\n" 
+        				"\t""\t"default con le quali l"'"utente potrà "\n"
+        				"\t""\t"iniziare la partita, una volta colclusa la"\n"
+        				"\t""\t"partita l"'"utente potrà registrare il suo "\n" 
+        				"\t""\t"nome nel database per controllare il suo"\n"
+        				"\t""\t"punteggio finale."\n""\n"
+        				
+        	&#42; "\t"<b>HIGHSCORE</b>"\n"
+        				"\t""\t"questa schermata contiene una tabella con "\n" 
+        				"\t""\t"due campi: <b>il nome del giocatore</b> ed "\n"
+        				"\t""\t"<b>il punteggio ottenuto</b>."\n""\n"
+        				
+        &#42; "\t"<b>HELP</b>"\n"
+        				"\t""\t"questa schermata contiene una piccola"\n"
+        				"\t""\t"guida dell"'"applicazione <b>aPuzzle</b>."\n""\n"
+        
+        	&#42; "\t"<b>AUTHORS</b>"\n"
+        				"\t""\t"questa schermata contiene i nomi degli"\n"
+        				"\t""\t"sviluppatori dell"'"applicazione <b>aPuzzle</b>."\n""\n"
+        				
+        	&#42; "\t"<b>EXIT</b>"\n"
+        				"\t""\t"viene richiesto all"'"utente se desidera"\n"
+        				"\t""\t"uscire dal gioco e chiudere l"'"applicazione."\n""\n"												
+        	
+        </p>
+        
+    </string>
+    
+    <string name="help_desc_en"><p align="left">
+        The application <b>aPuzzle</b> viene creata per fornire all"'"utente un passatempo veloce e divertente. 
+        <b>aPuzzle</b> è un gioco in cui bisogna trascinare tra loro dei pezzi di immagine di piccole dimensione 
+        fino a risalire all"'"immagine originale."\n""\n"
+        
+    	Iniziamo descrivendo le funzionalità di ogni singolo bottone presente nel <b>menu principale :</b>"\n""\n"
+        	
+        	&#42; "\t"<b>PLAY</b>"\n"
+        				"\t""\t"fornisce all"'"utente la possibilità di fare il"\n" 
+        				"\t""\t"puzzle di un"'"immagine presa dalla gallery "\n"
+        				"\t""\t"oppure dalla camera. "\n""\n"
+        				
+        	&#42; "\t"<b>ARCADE</b>"\n"
+        				"\t""\t"viene proposto all"'"utente 3 immagini di"\n" 
+        				"\t""\t"default con le quali l"'"utente potrà "\n"
+        				"\t""\t"iniziare la partita, una volta colclusa la"\n"
+        				"\t""\t"partita l"'"utente potrà registrare il suo "\n" 
+        				"\t""\t"nome nel database per controllare il suo"\n"
+        				"\t""\t"punteggio finale."\n""\n"
+        				
+        	&#42; "\t"<b>HIGHSCORE</b>"\n"
+        				"\t""\t"questa schermata contiene una tabella con "\n" 
+        				"\t""\t"due campi: <b>il nome del giocatore</b> ed "\n"
+        				"\t""\t"<b>il punteggio ottenuto</b>."\n""\n"
+        				
+        &#42; "\t"<b>HELP</b>"\n"
+        				"\t""\t"questa schermata contiene una piccola"\n"
+        				"\t""\t"guida dell"'"applicazione <b>aPuzzle</b>."\n""\n"
+        
+        	&#42; "\t"<b>AUTHORS</b>"\n"
+        				"\t""\t"questa schermata contiene i nomi degli"\n"
+        				"\t""\t"sviluppatori dell"'"applicazione <b>aPuzzle</b>."\n""\n"
+        				
+        	&#42; "\t"<b>EXIT</b>"\n"
+        				"\t""\t"viene richiesto all"'"utente se desidera"\n"
+        				"\t""\t"uscire dal gioco e chiudere l"'"applicazione."\n""\n"												
+        	
+        </p>
+        
+    </string>
+</resources>
